@@ -21,6 +21,7 @@ body {
   line-height: 1;
 }
 body {
+  background-image: url(./img/plan\ your\ trip.png);
   font-family: "Aleo";
   font-size: 20px;
   color: #0d606f;
@@ -67,6 +68,12 @@ header {
   align-items: center;
   padding: 25px 0 24px;
 }
+.header__logo {
+  margin-right: 158px;
+}
+.header__menu {
+  margin-right: 196px;
+}
 .menu__list {
   display: flex;
   flex-direction: row;
@@ -76,8 +83,8 @@ header {
   font-family: "Red Hat Text";
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.32px;
-  color: rgba(255, 255, 255, 1);
+  line-height: 1.32;
+  color: #ffffff;
 }
 .button {
   display: inline-block;
@@ -96,7 +103,6 @@ header {
 }
 /*Plan Your Trip*/
 .plan-your-trip {
-  background-image: url(./img/plan\ your\ trip.png);
   background-repeat: no-repeat;
   height: 765px;
   width: 1440px;
